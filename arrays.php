@@ -97,7 +97,8 @@ echo "La nota mas alta es de:";
 echo max($datos);
 echo " y el mejor alumno es: ";
 echo array_search(max($datos), $datos);     
-
+echo "<br>";
+echo "La nota mas baja es de:";
 ?>
 </body>
 </html>
