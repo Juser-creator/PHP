@@ -43,7 +43,6 @@ foreach ($datos as $valor) {
 }
         ?>
 
-    <h1>Ejercicio4 PauH:</h1>
 <?php
     $datos = array( "nombre" => "Sara", "apellido"=> "Martinez", "edad" => 23, "ciudad" => "Barcelona");
 
@@ -82,7 +81,7 @@ echo "Media de las notas:";
 echo array_sum($datos)/count($datos);
 echo "<br>";
 echo "Alumnos por encima de la media:";
-foreach ($datos as $key => $value) {
+foreach ($   as $key => $value) {
     if ($value >= 5) {
         echo $key . ", ";
     }
